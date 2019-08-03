@@ -1,3 +1,5 @@
+# day 1: 31/07/2019
+
 
 class Node:
     def __init__(self, data):
@@ -7,7 +9,6 @@ class Node:
 
 
 def print_in_order(root):
-
     if root:
         print_in_order(root.left)
         print(root.data, end=' ')
@@ -15,7 +16,6 @@ def print_in_order(root):
 
 
 def print_pre_order(root):
-
     if root:
         print(root.data, end=' ')
         print_pre_order(root.left)
@@ -23,7 +23,6 @@ def print_pre_order(root):
 
 
 def print_post_order(root):
-
     if root:
         print_post_order(root.left)
         print_post_order(root.right)
@@ -42,6 +41,3 @@ print("\n post order: ")
 print_post_order(root)
 print("\n in order: ")
 print_in_order(root)
-
-
-
