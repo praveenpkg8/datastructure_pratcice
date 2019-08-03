@@ -1,0 +1,4 @@
+#git Ignore files
+
+dsEnv/
+.idea/
