@@ -1,21 +1,22 @@
+# Day 1: 31/07/2019
 """
-Inorder tree traversal with out recursion
+In_order tree traversal with out recursion
 
 """
+
 
 class Node:
 
     def __init__(self, data):
-
         self.left = None
         self.right = None
         self.data = data
 
-def in_order(root):
 
+def in_order(_root):
     stack = []
 
-    current = root
+    current = _root
 
     while True:
 
@@ -29,7 +30,6 @@ def in_order(root):
         else:
             break
 
-
     print()
 
 
@@ -40,8 +40,3 @@ root.left.left = Node(4)
 root.left.right = Node(5)
 
 in_order(root)
-
-
-
-
-
