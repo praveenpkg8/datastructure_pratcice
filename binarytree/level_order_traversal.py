@@ -1,4 +1,4 @@
-# Day 2: 02/08/2019
+# Day 3: 02/08/2019 Level order traversal of a tree
 
 
 class Node:

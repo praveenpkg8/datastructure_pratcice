@@ -1,4 +1,4 @@
-# day 1: 31/07/2019
+# day 1: 31/07/2019 Tree traversal technique
 
 
 class Node:

@@ -1,4 +1,4 @@
-# Day 2: 01/08/2019
+# Day 4: 03/08/2019 implementation
 
 
 class Node:

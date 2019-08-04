@@ -1,4 +1,4 @@
-# Day 2: 02/08/2019 vertical order traversal
+# Day 3: 02/08/2019 vertical order traversal
 
 
 class Node:
