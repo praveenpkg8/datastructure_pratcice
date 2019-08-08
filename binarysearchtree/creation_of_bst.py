@@ -54,4 +54,4 @@ arr = list(map(int, input().split()))
 for i in range(t):
     tree.insert(arr[i])
 
-preOrder(tree.root)
+pre_order(tree.root)
