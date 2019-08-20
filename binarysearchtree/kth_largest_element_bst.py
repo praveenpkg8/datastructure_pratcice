@@ -22,10 +22,6 @@ def kth_largest_element(root, k, c):
     kth_largest_element(root.left, k, c)
 
 
-
-
-
-
 def insert_bst(root, data):
 
     if root.data > data:
