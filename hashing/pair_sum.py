@@ -27,5 +27,6 @@ def is_pair_sum(elements, sum):
 
 hash_element = [0] * 1000001
 elements = [1, 2, 3, 4, 5]
-pair_sum = 23
+pair_sum = 7
+count = 0
 print(is_pair_sum(elements, pair_sum))
